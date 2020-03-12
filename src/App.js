@@ -27,7 +27,7 @@ class App extends Component {
 			],
 			home: {
 				title: 'Be Relentless',
-				subtitle: 'Projects that make a difference',
+				subtitle: 'Solving real world problems with code',
 				text: 'Checkout my projects below'
 			},
 			about: {
