@@ -14,6 +14,7 @@ code {
 
 .k-card {
 	margin: 20px;
+	width: 300px;
 }
 
 .k-card-img {
@@ -36,4 +37,26 @@ code {
 .k-card-sub-title {
 	font-size: 16px;
 	margin: 0px;
+}
+
+.success-msg {
+	color: #57a773;
+	padding: 10px 15px;
+}
+
+.err-msg {
+	color: #ee6352;
+	padding: 10px 15px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	margin-right: 10px;
+}
+
+footer p {
+	font-size: 16px;
 }

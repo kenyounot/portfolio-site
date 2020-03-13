@@ -17,6 +17,7 @@ function Card(props) {
 				<CardInfo
 					title={props.item.title}
 					subTitle={props.item.subTitle}
+					tech={props.item.tech}
 					link={props.item.link}
 				/>
 			)}

@@ -7,15 +7,25 @@ export default function Footer() {
 	return (
 		<footer className='mt-5'>
 			<Container fluid={true}>
-				<Row className='border-top justify-content-between p-3'>
+				<Row className='border-top justify-content-center p-3'>
 					<Col className='p-0' md={3} sm={12}>
-						Kenneth Spatta
+						<p>Made by Ken Spatta 2020</p>
 					</Col>
-					<Col
-						className='p-0 d-flex justify-content-end'
-						md={3}
-					>
-						This site was made by Ken Spatta.
+					<Col className='p-0' md={3} sm={12}>
+						<a
+							href='https://linkedin.com/in/kenneth-spatta'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<i className='fab fa-linkedin fa-lg'></i>
+						</a>
+						<a
+							href='https://github.com/kenyounot'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<i className='fab fa-github fa-lg'></i>
+						</a>
 					</Col>
 				</Row>
 			</Container>

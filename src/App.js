@@ -47,7 +47,7 @@ class App extends Component {
 						bg='transparent'
 						expand='lg'
 					>
-						<Navbar.Brand>Kenneth Spatta</Navbar.Brand>
+						<Navbar.Brand>Ken Spatta</Navbar.Brand>
 
 						<Navbar.Toggle aria-controls='navbar-toggle' />
 
