@@ -1,4 +1,5 @@
 import React from 'react';
+import CardInfo from './CardInfo';
 
 function Card(props) {
 	return (
