@@ -16,16 +16,21 @@ class Carousel extends Component {
 				{
 					id: 0,
 					title: 'BookStack',
+					subTitle:
+						'an app to keep track of the books you love',
 					imgSrc: bookstack,
-					link: 'bookstackapi.herokuapp.com',
+					link: 'http://bookstackapi.herokuapp.com',
 					selected: false
 				},
 
 				{
 					id: 1,
 					title: 'Maintenance Tracker',
+					subTitle:
+						'an app to keep track of the maintenance of your vehicles',
 					imgSrc: maintenancetracker,
-					link: 'github.com/kenyounot',
+					link:
+						'http://github.com/kenyounot/maintenance-tracker',
 					selected: false
 				}
 			]
@@ -53,7 +58,7 @@ class Carousel extends Component {
 			return (
 				<Card
 					item={item}
-					onClick={e => this.handleCardClick(item.id, e)}
+					click={e => this.handleCardClick(item.id, e)}
 					key={item.id}
 				/>
 			);
