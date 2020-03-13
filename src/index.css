@@ -15,6 +15,7 @@ code {
 .k-card {
 	margin: 20px;
 	width: 300px;
+	cursor: pointer;
 }
 
 .k-card-img {
