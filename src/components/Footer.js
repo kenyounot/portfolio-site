@@ -26,6 +26,14 @@ export default function Footer() {
 						>
 							<i className='fab fa-github fa-lg'></i>
 						</a>
+
+						<a
+							href='https://docs.google.com/document/d/1sFVsphngN5KUCj3PMzsSmM3GPH07GxRzmOKmXO9_74Q/edit?usp=sharing'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<i class='far fa-file fa-lg'></i>
+						</a>
 					</Col>
 				</Row>
 			</Container>
