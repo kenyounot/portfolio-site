@@ -102,7 +102,7 @@ class ContactPage extends Component {
 
 						<Form.Group>
 							<Form.Label htmlFor='message'>
-								message
+								Message
 							</Form.Label>
 							<Form.Control
 								id='message'
